@@ -1,0 +1,20 @@
+$dark-violet: hsl(257, 27%, 26%);
+$dark-blue: hsl(255, 11%, 22%);
+$white: hsl(0, 0%, 100%);
+$grayish-violet: hsl(257, 7%, 63%);
+$cyan: hsl(180, 66%, 49%);
+$cyan-alpha:hsla(180, 66%, 49%, 0.9);
+$red: hsl(0, 87%, 67%);
+$statistic-bg: hsl(225, 33%, 95%);
+
+%logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+%btn{
+    padding: 15px;
+    color: $white;
+    background-color: $cyan;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
